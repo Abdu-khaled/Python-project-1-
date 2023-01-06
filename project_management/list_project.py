@@ -1,6 +1,9 @@
+# Abdelrahman Khaled 
+
 from datetime import datetime
 from .fileoperations import projects, save_projects
 from tabulate import tabulate
+
 
 def view_project():
     if not projects:
@@ -18,6 +21,12 @@ def view_project():
 
     headers = ["Title", "Description", "Target", "Creator"]
     print(tabulate(table, headers, tablefmt="grid"))
+
+
+
+
+
+
 
 def search_projects_by_date():
     date_to_search = input("Enter date to search (YYYY-MM-DD): ")
@@ -49,6 +58,9 @@ def search_projects_by_date():
     headers = ["Title", "Description", "Target", "Creator"]
     print(tabulate(table, headers, tablefmt="grid"))
 
+
+
+
 def delete_project(user_email):
     title_to_delete = input("Enter the title of the project to delete: ")
     project_to_delete = next((p for p in projects if p["title"] == title_to_delete and p["creator"] == user_email), None)
@@ -60,6 +72,9 @@ def delete_project(user_email):
     projects.remove(project_to_delete)
     save_projects(projects)
     print("Project deleted successfully!")
+
+
+
 
 def update_project(user_email):
     title_to_update = input("Enter the title of the project to update: ")

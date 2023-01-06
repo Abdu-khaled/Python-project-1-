@@ -1,10 +1,10 @@
 [
     {
-        "title": "Gym",
-        "description": "The best gym ever",
-        "target": "100000",
-        "start_date": "2025-03-03",
-        "end_date": "2025-04-04",
+        "title": "gym",
+        "description": "best gym",
+        "target": 20000.0,
+        "start_date": "2025-02-02",
+        "end_date": "2025-03-03",
         "creator": "abdo@gmail.com"
     }
 ]
