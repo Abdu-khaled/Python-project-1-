@@ -1,5 +1,5 @@
 from datetime import datetime
-from project_management import projects
+from project_management.create_project import projects
 
 
 
@@ -12,7 +12,7 @@ def view_project():
         return
     
     for project in projects:
-        print(f"Title: {project['title']}, Description: {project['description']}, Target: {project['target']}, Start Date: {project['start_date']}, End Date: {project['end_date']}, Creator: {project['creator']}")
+        print(f"Title: {project['title']}, Description: {project['description']}, Target: {project['target']}, Start Date: {project['start_date']}, End Date: {project['end_date']}, creator: {project['creator']}")
 
 
 
@@ -25,6 +25,6 @@ def search_projects_by_date():
         if not filtered_projects:
             print("No projects found for this date!")
         for project in filtered_projects:
-            print(f"Title: {project['title']}, Owner: {project['owner']}, Target: {project['target']} EGP")
+            print(f"Title: {project['title']}, creator: {project['creator']}, Target: {project['target']} EGP")
     except ValueError:
         print("Invalid date format!")
