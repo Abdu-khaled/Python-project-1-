@@ -34,10 +34,10 @@ def create_project(usaer_email):
         "target": target,
         "start_date": start_date,
         "end_date": end_date,
-        "creator": user_email,
+        "creator": usaer_email,
     }
 
 
     projects.append(project)
-    
+
     print("Project created successfully!")
