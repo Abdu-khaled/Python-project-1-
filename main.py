@@ -1,8 +1,8 @@
 from project_management.create_project import create_project
 from project_management.list_project import search_projects_by_date, view_project, delete_project, update_project
 from project_management.fileoperations import read_projects
-from registration import register_user
-from login import login_user
+from authentication.registration import register_user
+from authentication.login import login_user
 
 def main():
     read_projects()

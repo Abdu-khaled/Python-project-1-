@@ -1,94 +1,10 @@
 [
     {
-        "title": "kkko",
-        "description": "the cook ",
-        "target": 2665.0,
-        "creator": "lo@gmail.com"
-    },
-    {
-        "title": "ge",
-        "description": "aehdr",
-        "target": 5555.0,
-        "creator": "lol@gmail.com"
-    },
-    {
-        "title": "gsggs",
-        "description": "gssgg",
-        "target": 2222.0,
-        "start_date": "2025-02-02",
-        "end_date": "2025-03-03",
-        "creator": "kok@gmail.com"
-    },
-    {
-        "title": "ags",
-        "description": "gsa",
-        "target": 5366.0,
-        "start_date": "2025-05-05",
-        "end_date": "2025-06-06",
-        "creator": "mom@gmail.com"
-    },
-    {
-        "title": "big gym ",
-        "description": "good project ",
-        "target": 20000.0,
-        "start_date": "2025-02-02",
-        "end_date": "2025-03-03",
-        "creator": "mop@gmail.com"
-    },
-    {
-        "title": "mook",
-        "description": "gsdgfa",
-        "target": 20000.0,
-        "start_date": "2025-02-02",
-        "end_date": "2025-06-06",
-        "creator": "mop@gmail.com"
-    },
-    {
-        "title": "lp",
-        "description": "lppppppp",
-        "target": 2000000.0,
-        "start_date": "2025-02-02",
-        "end_date": "2025-05-05",
-        "creator": "lp@gmail.com"
-    },
-    {
-        "title": "nn",
-        "description": "nn",
-        "target": 20000.0,
-        "start_date": "2025-07-07",
-        "end_date": "2025-08-08",
-        "creator": "nn@gmail.com"
-    },
-    {
-        "title": "mmm",
-        "description": ",,,,",
-        "target": 3.5252,
-        "start_date": "2025-02-02",
-        "end_date": "2025-06-06",
-        "creator": "nn@gmail.com"
-    },
-    {
-        "title": "moko",
-        "description": "moko",
-        "target": 200000.0,
-        "start_date": "2025-02-02",
-        "end_date": "2025-03-03",
-        "creator": "moko@gmail.com"
-    },
-    {
-        "title": "uou",
-        "description": "uou",
-        "target": "100",
-        "start_date": "2025-01-01",
-        "end_date": "2025-06-06",
-        "creator": "ou@gmail.com"
-    },
-    {
-        "title": "iooi",
-        "description": "meeee",
-        "target": "400",
+        "title": "Gym",
+        "description": "The best gym ever",
+        "target": "100000",
         "start_date": "2025-03-03",
         "end_date": "2025-04-04",
-        "creator": "io@gmail.com"
+        "creator": "abdo@gmail.com"
     }
 ]

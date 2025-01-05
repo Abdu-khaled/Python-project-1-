@@ -1,5 +1,5 @@
 
-from registration import users
+from authentication.registration import users
 
 
 def login_user():
