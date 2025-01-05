@@ -1,19 +1,10 @@
 from datetime import datetime
+from .fileoperations import save_projects, projects
 
-projects = []
-
-def create_project(usaer_email):
-    print("Create Project")
+def create_project(user_email):
     title = input("Enter project title: ")
     description = input("Enter project description: ")
-    target = int(input("Enter project target: "))
-
-    try:
-        target = float(target)
-    except ValueError:
-        print("Invalid target amount")
-        return
-    
+    target = float(input("Enter project target: "))
     start_date = input("Enter project start date (YYYY-MM-DD): ")
     end_date = input("Enter project end date (YYYY-MM-DD): ")
 
@@ -23,7 +14,6 @@ def create_project(usaer_email):
         if end_date <= start_date:
             print("End date must be after start date")
             return
-
     except ValueError:
         print("Invalid date format")
         return
@@ -32,12 +22,12 @@ def create_project(usaer_email):
         "title": title,
         "description": description,
         "target": target,
-        "start_date": start_date,
-        "end_date": end_date,
-        "creator": usaer_email,
+        "start_date": start_date.strftime("%Y-%m-%d"),
+        "end_date": end_date.strftime("%Y-%m-%d"),
+        "creator": user_email,
     }
 
-
     projects.append(project)
+    save_projects(projects)
 
     print("Project created successfully!")
