@@ -101,3 +101,4 @@ def update_project(user_email):
 
     save_projects(projects)
     print("Project updated successfully!")
+    print("Project updated brooo!!!!!")
